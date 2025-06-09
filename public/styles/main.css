@@ -1,0 +1,127 @@
+body {
+    background-color: #7F8CAA;
+    color: #333446;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    font-family: "Outfit", sans-serif;
+}
+#navbar{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: black;
+    background-color: #B8CFCE ; 
+    padding-left: 20px; 
+    font-size: 20px;
+    z-index: 1;
+}
+#nav ul{
+    list-style-type: none;
+    padding-left: 6px;
+}
+.nav-list {
+    display: inline-block;
+    color: black;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #333446;
+    padding-right: 10px;
+    padding-left: 3px;
+}
+.nav-list.home a{
+    color: #EAEFEF;
+    font-weight: bold;
+}
+.nav-list a:hover {
+  display: inline-block;
+  color: #7F8CAA;
+  font-size: 110%;
+  font-weight: bold;
+  padding: 0 3px;
+  background-color: transparent;
+}
+#header{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    background-color: #b8cfce;
+}
+#header h1 {
+    margin-top: 0;
+    font-size: 38px;
+}
+#blog{
+    position:absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+}
+.entry{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+    padding: 20px 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 90px;
+    background-color: #B8CFCE;
+}
+#new-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EAEFEF;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+#submit-btn {
+    border-radius: 3px;
+    width:fit-content   ;
+    background-color: #B8CFCE;
+    border: none;
+    margin-top: 10px;
+    align-self: center;
+    font-family: "Outfit", sans-serif;
+}
+#submit-btn:hover{
+    background-color: #EAEFEF;
+    border: solid #B8CFCE;
+}
+#title, #text-content{
+    background-color: #B8CFCE;
+    border: none;
+}
+footer{
+   
+    
+    margin: 0;
+}
+#footer{
+    display: flex;
+    align-items: center;
+     background-color: #B8CFCE;
+     position: fixed;
+     bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 20px;
+}

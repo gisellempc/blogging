@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%-include("partials/header.ejs") %>
+  <body>
+    <%- include("partials/navbar.ejs") %>
+    <section id="header">
+      <div>
+        <h1>Some blogging</h1>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="entry">
+        <% if (locals.title ) { %>
+
+        <h1><%= locals.title %></h1>
+        <p><%= locals.text %></p>
+
+        <% } else {%>
+        <h2>There are no entries yet.</h2>
+        <% } %>
+      </div>
+    </section>
+    <section id="footer"><%- include("partials/footer.ejs") %></section>
+  </body>
+</html>
